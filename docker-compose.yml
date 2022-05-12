@@ -10,6 +10,6 @@ services:
       dockerfile: HelloAspNetCore/Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTPS_PORT=5142
+      - ASPNETCORE_HTTPS_PORT=1042
     ports:
-      - 5142:24
+      - 1042:24

@@ -1,8 +1,8 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0-focal AS base
 WORKDIR /app
-EXPOSE 5142
+EXPOSE 1042
 
-ENV ASPNETCORE_URLS=http://+:5142
+ENV ASPNETCORE_URLS=http://+:1042
 ENV ASPNETCORE_ENVIRONMENT=Development 
 
 # Creates a non-root user with an explicit UID and adds permission to access the /app folder
